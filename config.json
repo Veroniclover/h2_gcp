@@ -16,10 +16,10 @@
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "h2",
+        "network": "grpc",
         "security": "none",
-        "httpSettings": {
-          "path": "/helloworld"
+        "grpcSettings": {
+          "serviceName": "helloworld"
         }
       }
     }
