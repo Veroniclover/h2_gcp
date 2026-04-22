@@ -19,7 +19,7 @@
         "network": "xhttp",
         "security": "none",
         "xhttpSettings": {
-          "path": "/helloworld",
+          "path": "/v1/projects/update",
           "mode": "auto"
         }
       }
