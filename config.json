@@ -16,10 +16,13 @@
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "h2",
         "security": "none",
-        "grpcSettings": {
-          "serviceName": "helloworld"
+        "httpSettings": {
+          "path": "/helloworld",
+          "host": [
+            "firebase-settings.crashlytics.com"
+          ]
         }
       }
     }
