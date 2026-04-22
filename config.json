@@ -16,13 +16,11 @@
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "h2",
+        "network": "xhttp",
         "security": "none",
-        "httpSettings": {
+        "xhttpSettings": {
           "path": "/helloworld",
-          "host": [
-            "firebase-settings.crashlytics.com"
-          ]
+          "mode": "auto"
         }
       }
     }
