@@ -19,7 +19,7 @@
         "network": "h2",
         "security": "none",
         "httpSettings": {
-          "path": "/helloworld",
+          "path": "/helloworld"
         }
       }
     }
